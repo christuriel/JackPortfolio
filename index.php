@@ -10,15 +10,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>My portfolio</title>
   </head>
   <body>
   <section>
-    <div class="home-bg" style="height: 100vh;">
-      <img src="MACBOOKMOCKUP.jpg" style="top: 0; right: 0; left: 0; bottom: 0; height: 100vh;  width: 100%;">
-      <div class="home-content w-100" style="position: absolute; top: 0; right: 0; bottom: 0; height: 100%; background: rgb(0,0,0,0.6);">
+    <div class="home-bg">
+      <img src="MACBOOKMOCKUP.jpg">
+      <div class="home-content w-100">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark px-5">
-          <a class="navbar-brand font-weight-bold" href="#">JDW</a>
+          <a class="navbar-brand font-weight-bold text-warning">JDW</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -47,22 +47,22 @@
         <div class="container text-white">
           <div class="row">
             <div class="col-md-5 d-none d-md-block">
-              <div class="" style="border-left: 2px solid white; border-right: 2px solid white; border-bottom: 2px solid white; border-bottom-left-radius: 40%; border-bottom-right-radius: 40%;">
-                <div class="p-4" style="margin-bottom: 300px;">
-                  <h2 style="">I'm Mathias HOUNYE</h2>
-                  <h5>Font-end & Back-end developper</h5>
+              <div class="decorRoad">
+                <div class="p-4 decorRoad-content">
+                  <h2>I'm Mathias HOUNYE</h2>
+                  <h5>Full Stack Web Developper</h5>
                 </div>
 
-                <div class="pt-4 pb-2" style="border: 1px solid white; border-radius: 100px; width: 100px; margin: auto;">
-                  <p class="px-2">Learn more</p>
-                  <span style="padding-left: 40px;" ><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
+                <div class="pt-4 pb-2 getMeTouch" id="getMeTouch">
+                  <p class="px-2 font-weight-bold">Touch me</p>
+                  <span><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-7">
-              <div class="row" style="margin-top: 30%;">
-                <h1 class="mx-auto" style="font-size: 60px;">Web developper 2.0</h1>
+            <div class="col-md-7 home-content-hero">
+              <div class="row title">
+                <h1 class="mx-auto">Web developper 2.0</h1>
               </div>
               <div class="row">
                 <h2 class="mx-auto">Font-end & Back-end</h2>
@@ -145,23 +145,23 @@
             </div>
             <h6>PHP</h6>
             <div class="progress w-100" style="height: 22px;">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
             </div>
-            <h6>JQUERY/JAVASCRIPT</h6>
+            <h6>JQUERY/JAVASCRIPT/AJAX</h6>
             <div class="progress w-100" style="height: 22px;">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
             </div>
             <h6>JAVA</h6>
             <div class="progress w-100" style="height: 22px;">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+              <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
             </div>
             <h6>CSS3</h6>
             <div class="progress w-100" style="height: 22px;">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
             </div>
             <h6>HTML5</h6>
             <div class="progress w-100" style="height: 22px;">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+              <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
             </div>
           </div>
         </div>
@@ -219,14 +219,14 @@
     </div>
   </section>
 
-  <section class="bg-dark text-white" style="padding-top: 70px; padding-bottom: 70px;">
+  <section class="text-white contact-content" style="padding-top: 70px; padding-bottom: 70px;">
     <div class="container">
       <div class="row">
         <h2 class="mx-auto pb-5">CONTACT ME</h2>
       </div>
 
       <div class="row">
-        <div class="col-md-6 bg-info">
+        <div class="col-md-6 bg">
           <div class="p-4">
             <h5>LEAVE ME A MESSAGE</h5>
             <form class="col-12" action="" method="">
@@ -248,16 +248,16 @@
         </div>
 
         <div class="col-md-5 offset-md-1">
-          <div class="bg-primary px-4 pb-2">
+          <div class="bg px-4 pb-2">
               <h5 class="pt-4">ADDRESS</h5>
               <p>Lorem Ipsum is simply dummy text of </p>
           </div>
-          <div class="my-3 bg-primary px-4 pb-2">
+          <div class="my-3 bg px-4 pb-2">
               <h5 class="pt-4">PHONE</h5>
               <p>+380 </p>
               <p>+380 </p>
           </div>
-          <div class="bg-primary px-4 pb-2">
+          <div class="bg px-4 pb-2">
               <h5 class="pt-4">WEB</h5>
               <p>Mail: </p>
               <p>Website: </p>
